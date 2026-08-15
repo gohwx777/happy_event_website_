@@ -214,7 +214,7 @@ body {
 
 @media (max-width: 600px) {
     .header .container {
-        min-height: 40px;
+        min-height: 130px;
     }
     
     .header .logo-image {
