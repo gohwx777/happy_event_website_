@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Event · Contact</title>
+    <link rel="icon" href="happy_event_logo.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="mainHeader">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="happy_event_logo.png" alt="Happy Event" class="logo-image" />
+            </a>
+            <button class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="events.html">Events</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <section class="page-header">
+        <div class="container" data-aos="fade-up">
+            <h1>Contact Us</h1>
+            <div class="breadcrumbs">
+                <a href="index.html">Home</a> <span class="sep">•</span> <span>Contact</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <span class="section-tag">Get In Touch</span>
+                <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+                <div class="line"></div>
+                <p>Let's plan your next event together</p>
+            </div>
+
+            <div class="contact-grid-full">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper" data-aos="fade-right">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required />
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" />
+                        </div>
+                        <div class="form-group">
+                            <select>
+                                <option value="">Select Event Type</option>
+                                <option value="wedding">Wedding</option>
+                                <option value="corporate">Corporate Event</option>
+                                <option value="roadshow">Roadshow</option>
+                                <option value="annual-dinner">Annual Dinner</option>
+                                <option value="concert">Concert</option>
+                                <option value="product-launch">Product Launch</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="5" placeholder="Tell us about your event..."></textarea>
+                        </div>
+                        <button type="submit">Send Message <i class="fas fa-paper-plane" style="margin-left:6px;"></i></button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-wrapper" data-aos="fade-left">
+                    <h3>Contact Information</h3>
+
+                    <div class="info-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="info-icon"><i class="fas fa-location-dot"></i></div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Happy Event, Penang, Malaysia</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="info-icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+60 4-123 4567</p>
+                            <p>+60 12-345 6789</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@happyevent.com</p>
+                            <p>info@happyevent.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="info-icon"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Monday – Friday: 9:00 AM – 6:00 PM</p>
+                            <p>Saturday: 10:00 AM – 4:00 PM</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links" data-aos="fade-up" data-aos-delay="500">
+                        <h4>Follow Us</h4>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MAP SECTION ===== -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <span class="section-tag">Location</span>
+                <h2><i class="fas fa-map"></i> Find Us</h2>
+                <div class="line"></div>
+            </div>
+            <div class="map-wrapper" data-aos="zoom-in">
+                <!-- Google Maps Embed -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.1342667293006!2d100.30527007447526!3d5.396504235233991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3d3a1b20d13%3A0xe6d56ca9173d34f6!2sHappy%20Event!5e0!3m2!1sen!2smy!4v1786727329754!5m2!1sen!2smy" 
+                    width="100%" 
+                    height="650" 
+                    style="border:0; border-radius:16px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA SECTION ===== -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>Ready to Make Your <span>Event Happen?</span></h2>
+                <p>Contact us today and let's start planning!</p>
+                <a href="#contact" class="cta-btn">Get Started <i class="fas fa-arrow-right" style="margin-left:8px;"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div data-aos="fade-up">
+                    <img src="happy_event_logo.png" alt="Happy Event" class="footer-logo" />
+                    <p style="margin-top:0.5rem;">Event management · Sound · Lighting · LED · Deco</p>
+                    <p><i class="fas fa-map-marker-alt" style="width:1.2rem;"></i> Penang, Malaysia</p>
+                    <p><i class="fas fa-phone" style="width:1.2rem;"></i> +60 4-123 4567</p>
+                    <p><i class="fas fa-envelope" style="width:1.2rem;"></i> hello@happyevent.com</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="100">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="events.html">Events</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200">
+                    <h4>Services</h4>
+                    <a href="services.html#event-management">Event Management</a>
+                    <a href="services.html#sound">Sound System</a>
+                    <a href="services.html#lighting">Lighting</a>
+                    <a href="services.html#led">LED System</a>
+                    <a href="services.html#deco">Decoration</a>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300">
+                    <h4>Connect</h4>
+                    <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+                    <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Happy Event</span>
+                <span>Built with <i class="fas fa-heart" style="color:#0aabe1;"></i> for events</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== WHATSAPP FLOAT ===== -->
+    <a href="https://wa.me/60123456789?text=Hi%2C%20I%27m%20interested%20in%20your%20event%20services" class="whatsapp-float" target="_blank" data-aos="fade-up" data-aos-duration="800" data-aos-delay="1000">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ===== BACK TO TOP ===== -->
+    <button class="back-top" id="backTop"><i class="fas fa-chevron-up"></i></button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you! We will get back to you within 24 hours.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>

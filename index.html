@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Event · Home</title>
+    <link rel="icon" href="happy_event_logo.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="mainHeader">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="happy_event_logo.png" alt="Happy Event" class="logo-image" />
+            </a>
+            <button class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="events.html">Events</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <span class="hero-badge pulse-animation">SINCE 2018</span>
+                <h1>Your Event <span>Starts Here</span></h1>
+                <p>Sound · Lighting · LED · Deco · Full event management.</p>
+                <a href="services.html" class="hero-btn">Explore Services <i class="fas fa-arrow-right" style="margin-left:8px;"></i></a>
+                <div class="hero-stats">
+                    <div><span class="num" data-target="200">0</span><span class="label">+ Events</span></div>
+                    <div><span class="num" data-target="50">0</span><span class="label">+ Clients</span></div>
+                    <div><span class="num" data-target="8">0</span><span class="label">Years</span></div>
+                </div>
+            </div>
+            <div class="hero-grid" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fas fa-microphone-alt"></i>
+                    <span>Sound</span>
+                </div>
+                <div class="card" data-aos="zoom-in" data-aos-delay="500">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Lighting</span>
+                </div>
+                <div class="card" data-aos="zoom-in" data-aos-delay="600">
+                    <i class="fas fa-tv"></i>
+                    <span>LED</span>
+                </div>
+                <div class="card" data-aos="zoom-in" data-aos-delay="700">
+                    <i class="fas fa-paint-roller"></i>
+                    <span>Deco</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES PREVIEW ===== -->
+    <section class="services-preview" id="services">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <span class="section-tag">What We Do</span>
+                <h2><i class="fas fa-cogs"></i> Our Services</h2>
+                <div class="line"></div>
+                <p>Full support for corporate &amp; private events</p>
+            </div>
+            <div class="service-grid">
+                <div class="service-card" data-aos="flip-up" data-aos-delay="100">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h4>Event Management</h4>
+                    <p>Planning, coordination &amp; execution</p>
+                    <a href="services.html#event-management" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="flip-up" data-aos-delay="200">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-volume-up"></i>
+                    </div>
+                    <h4>Sound System</h4>
+                    <p>Line array, monitors &amp; wireless</p>
+                    <a href="services.html#sound" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="flip-up" data-aos-delay="300">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <h4>Lighting</h4>
+                    <p>Stage, wash, moving heads &amp; effects</p>
+                    <a href="services.html#lighting" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="flip-up" data-aos-delay="400">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h4>LED System</h4>
+                    <p>Indoor/outdoor screens &amp; video wall</p>
+                    <a href="services.html#led" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="flip-up" data-aos-delay="500">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h4>Decoration</h4>
+                    <p>Theming, flowers, backdrops &amp; props</p>
+                    <a href="services.html#deco" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT PREVIEW ===== -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text" data-aos="fade-right">
+                    <span class="badge-year"><i class="fas fa-calendar-alt"></i> Since 2018</span>
+                    <h3>Your Trusted <span>Event Partner</span></h3>
+                    <p>We bring creative energy and technical precision to every event. From sound &amp; lighting to LED walls and decor — we handle it all.</p>
+                    <div class="about-features-mini">
+                        <span><i class="fas fa-check-circle"></i> 8+ years experience</span>
+                        <span><i class="fas fa-check-circle"></i> In‑house equipment</span>
+                        <span><i class="fas fa-check-circle"></i> Professional team</span>
+                    </div>
+                    <a href="about.html" class="btn-about">Learn More About Us →</a>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="about-image-content">
+                        <!-- Google Map Embed - Better Size -->
+                        <div class="about-map-wrapper">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.1342667293006!2d100.30527007447526!3d5.396504235233991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3d3a1b20d13%3A0xe6d56ca9173d34f6!2sHappy%20Event!5e0!3m2!1sen!2smy!4v1786727329754!5m2!1sen!2smy" 
+                                width="100%" 
+                                height="280" 
+                                style="border:0; border-radius:16px;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="strict-origin-when-cross-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EVENTS PREVIEW ===== -->
+    <section class="events-preview">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <span class="section-tag">Our Specialties</span>
+                <h2><i class="fas fa-calendar-alt"></i> Events We Serve</h2>
+                <div class="line"></div>
+                <p>From intimate weddings to large-scale roadshows</p>
+            </div>
+            <div class="events-grid">
+                <div class="event-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="event-icon-wrapper">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <h5>Wedding</h5>
+                    <p>Creating your dream day</p>
+                </div>
+                <div class="event-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="event-icon-wrapper">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h5>Roadshow</h5>
+                    <p>Mobile event activations</p>
+                </div>
+                <div class="event-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="event-icon-wrapper">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h5>Annual Dinner</h5>
+                    <p>Corporate celebrations</p>
+                </div>
+                <div class="event-item" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="event-icon-wrapper">
+                        <i class="fas fa-chalkboard"></i>
+                    </div>
+                    <h5>Corporate</h5>
+                    <p>Professional conferences</p>
+                </div>
+                <div class="event-item" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="event-icon-wrapper">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h5>Concert</h5>
+                    <p>Live music productions</p>
+                </div>
+                <div class="event-item" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="event-icon-wrapper">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h5>Product Launch</h5>
+                    <p>Brand activations</p>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top:2.5rem;">
+                <a href="events.html" class="btn-outline">View All Events <i class="fas fa-arrow-right" style="margin-left:6px;"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <span class="section-tag">Testimonials</span>
+                <h2><i class="fas fa-comment-dots"></i> What Our Clients Say</h2>
+                <div class="line"></div>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testi-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testi-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-quote-left testi-quote"></i>
+                    <p>Professional sound & lighting for our annual dinner. Flawless execution!</p>
+                    <div class="client">
+                        <div class="client-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div class="client-info">
+                            <span class="client-name">Dato' Seri</span>
+                            <span class="client-role">Corporate Client</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testi-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-quote-left testi-quote"></i>
+                    <p>They handled the LED wall and stage design perfectly. Highly recommend.</p>
+                    <div class="client">
+                        <div class="client-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div class="client-info">
+                            <span class="client-name">Event Manager</span>
+                            <span class="client-role">G Hotel</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testi-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-quote-left testi-quote"></i>
+                    <p>From deco to sound, everything was on point. Our wedding was magical.</p>
+                    <div class="client">
+                        <div class="client-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div class="client-info">
+                            <span class="client-name">Mr. & Mrs. Tan</span>
+                            <span class="client-role">Wedding Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA SECTION ===== -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>Ready to Plan Your <span>Next Event?</span></h2>
+                <p>Let's create something unforgettable together.</p>
+                <a href="contact.html" class="cta-btn">Get in Touch <i class="fas fa-arrow-right" style="margin-left:8px;"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div data-aos="fade-up">
+                    <img src="happy_event_logo.png" alt="Happy Event" class="footer-logo" />
+                    <p style="margin-top:0.5rem;">Event management · Sound · Lighting · LED · Deco</p>
+                    <p><i class="fas fa-phone" style="width:1.2rem;"></i> +60 4-123 4567</p>
+                    <p><i class="fas fa-envelope" style="width:1.2rem;"></i> hello@happyevent.com</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="100">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="events.html">Events</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200">
+                    <h4>Services</h4>
+                    <a href="services.html#event-management">Event Management</a>
+                    <a href="services.html#sound">Sound System</a>
+                    <a href="services.html#lighting">Lighting</a>
+                    <a href="services.html#led">LED System</a>
+                    <a href="services.html#deco">Decoration</a>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300">
+                    <h4>Connect</h4>
+                    <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+                    <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Happy Event</span>
+                <span>Built with <i class="fas fa-heart" style="color:#0aabe1;"></i> for events</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== WHATSAPP FLOAT ===== -->
+    <a href="https://wa.me/60123456789?text=Hi%2C%20I%27m%20interested%20in%20your%20event%20services" class="whatsapp-float" target="_blank" data-aos="fade-up" data-aos-duration="800" data-aos-delay="1000">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ===== BACK TO TOP ===== -->
+    <button class="back-top" id="backTop"><i class="fas fa-chevron-up"></i></button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const counters = document.querySelectorAll('.num');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const target = parseInt(entry.target.getAttribute('data-target'));
+                        let current = 0;
+                        const increment = target / 50;
+                        const timer = setInterval(() => {
+                            current += increment;
+                            if (current >= target) {
+                                entry.target.textContent = target;
+                                clearInterval(timer);
+                            } else {
+                                entry.target.textContent = Math.floor(current);
+                            }
+                        }, 40);
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.5 });
+            counters.forEach(counter => observer.observe(counter));
+        });
+    </script>
+</body>
+</html>
