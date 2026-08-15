@@ -65,6 +65,7 @@ body {
     z-index: 1000;
     transition: all 0.3s ease;
     box-shadow: none;
+    height: 130px;
 }
 
 /* ===== HEADER WHEN SCROLLED ===== */
